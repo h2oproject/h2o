@@ -1,0 +1,11 @@
+[Protocol]
+exec=h2o-qt '%u'
+protocol=h2o
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

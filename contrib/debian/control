@@ -1,0 +1,68 @@
+Source: h2o
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@h2o.org>
+Uploaders: Holger Schinzel <holger@h2o.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.h2o.org/
+Vcs-Git: git://github.com/h2ocoin/h2o.git
+Vcs-Browser: https://github.com/h2ocoin/h2o
+
+Package: h2od
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ H2O is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. H2O uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. H2O Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, h2od, and the CLI tool
+ h2o-cli to interact with the daemon.
+
+Package: h2o-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ H2O is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. H2O uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. H2O Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides H2O-Qt, a GUI for H2O based on Qt.
+
+Package: h2o-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ H2O is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. H2O uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. H2O Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides h2o-tx, a command-line transaction creation
+ tool which can be used without a h2o daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

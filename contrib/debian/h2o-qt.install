@@ -1,0 +1,6 @@
+usr/local/bin/h2o-qt usr/bin
+share/pixmaps/h2o32.xpm usr/share/pixmaps
+share/pixmaps/h2o16.xpm usr/share/pixmaps
+share/pixmaps/h2o128.png usr/share/pixmaps
+debian/h2o-qt.desktop usr/share/applications
+debian/h2o-qt.protocol usr/share/kde4/services/

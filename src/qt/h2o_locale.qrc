@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/h2o_bg.qm</file>
+        <file alias="de">locale/h2o_de.qm</file>
+        <file alias="en">locale/h2o_en.qm</file>
+        <file alias="es">locale/h2o_es.qm</file>
+        <file alias="fi">locale/h2o_fi.qm</file>
+        <file alias="fr">locale/h2o_fr.qm</file>
+        <file alias="it">locale/h2o_it.qm</file>
+        <file alias="ja">locale/h2o_ja.qm</file>
+        <file alias="pl">locale/h2o_pl.qm</file>
+        <file alias="pt">locale/h2o_pt.qm</file>
+        <file alias="ru">locale/h2o_ru.qm</file>
+        <file alias="sk">locale/h2o_sk.qm</file>
+        <file alias="sv">locale/h2o_sv.qm</file>
+        <file alias="vi">locale/h2o_vi.qm</file>
+        <file alias="zh_CN">locale/h2o_zh_CN.qm</file>
+        <file alias="zh_TW">locale/h2o_zh_TW.qm</file>
+    </qresource>
+</RCC>

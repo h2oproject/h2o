@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=H2O
+Comment=H2O P2P Cryptocurrency
+Exec=h2o-qt %u
+Terminal=false
+Type=Application
+Icon=h2o128
+MimeType=x-scheme-handler/h2o;
+Categories=Office;Finance;
+Name[en_US]=h2o-qt.desktop
